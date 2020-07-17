@@ -10,8 +10,8 @@ if [ $a -eq 0 ]
 then
          echo "division impossible "
 else
-	 ab = $(expr "$a" / "$b")
+	 echo "resultat:"
+	 echo $(expr $a / $b)
 
-	 echo "result :$ab"
 fi
 
